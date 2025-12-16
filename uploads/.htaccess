@@ -1,0 +1,13 @@
+# Sécurité pour le dossier uploads
+# Empêcher l'exécution de scripts PHP
+
+<FilesMatch "\.(php|php3|php4|php5|phtml)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Autoriser uniquement certains types de fichiers
+<FilesMatch "\.(jpg|jpeg|png|gif|pdf|doc|docx|xls|xlsx)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
