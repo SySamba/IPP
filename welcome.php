@@ -602,7 +602,7 @@
                         </div>
                         <div class="text-white">
                             <strong>Adresse</strong><br>
-                            <span class="text-white-50">Yaoundé, Cameroun</span>
+                            <span class="text-white-50">Ngor, Dakar - Sénégal</span>
                         </div>
                     </div>
                     
@@ -612,7 +612,7 @@
                         </div>
                         <div class="text-white">
                             <strong>Téléphone</strong><br>
-                            <span class="text-white-50">+237 6XX XXX XXX</span>
+                            <span class="text-white-50">+221 XX XXX XX XX</span>
                         </div>
                     </div>
                     
@@ -622,7 +622,7 @@
                         </div>
                         <div class="text-white">
                             <strong>Email</strong><br>
-                            <span class="text-white-50">contact@ipp.cm</span>
+                            <span class="text-white-50">contact@ipp.sn</span>
                         </div>
                     </div>
                 </div>
@@ -696,9 +696,9 @@
                 <div class="col-lg-3 col-md-4 mb-4">
                     <h5 class="footer-title">Contact</h5>
                     <p class="text-white-50">
-                        <i class="fas fa-map-marker-alt me-2"></i>Yaoundé, Cameroun<br>
-                        <i class="fas fa-phone me-2"></i>+237 XXX XXX XXX<br>
-                        <i class="fas fa-envelope me-2"></i>contact@ipp.cm
+                        <i class="fas fa-map-marker-alt me-2"></i>Ngor, Dakar - Sénégal<br>
+                        <i class="fas fa-phone me-2"></i>+221 XX XXX XX XX<br>
+                        <i class="fas fa-envelope me-2"></i>contact@ipp.sn
                     </p>
                 </div>
             </div>
