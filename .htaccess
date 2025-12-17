@@ -3,9 +3,12 @@
 # Activer le moteur de réécriture
 RewriteEngine On
 
-# Rediriger vers HTTPS (décommenter en production)
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Page d'accueil par défaut
+DirectoryIndex welcome.php index.php
+
+# Rediriger vers HTTPS (production)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Empêcher l'accès aux fichiers sensibles
 <FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|md)$">
@@ -30,9 +33,9 @@ RedirectMatch 404 /database/
 Options -Indexes
 
 # Configuration des erreurs personnalisées
-ErrorDocument 404 /ipp/404.php
-ErrorDocument 403 /ipp/403.php
-ErrorDocument 500 /ipp/500.php
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+ErrorDocument 500 /500.php
 
 # Compression GZIP
 <IfModule mod_deflate.c>
