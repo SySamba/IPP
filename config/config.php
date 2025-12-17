@@ -17,7 +17,7 @@ define('UPLOADS_PATH', BASE_PATH . '/uploads');
 define('ASSETS_PATH', BASE_PATH . '/assets');
 
 // URL de base
-define('BASE_URL', 'http://localhost/ipp');
+define('BASE_URL', 'https://ipp.teranganumerique.com');
 
 // Configuration de l'application
 define('APP_NAME', 'Institut Polytechnique Panafricain');
@@ -44,7 +44,7 @@ define('ROLES', [
 ]);
 
 // Fuseau horaire
-date_default_timezone_set('Africa/Abidjan');
+date_default_timezone_set('Africa/Dakar');
 
 // Affichage des erreurs (à désactiver en production)
 error_reporting(E_ALL);
